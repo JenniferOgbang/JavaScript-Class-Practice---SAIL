@@ -55,6 +55,12 @@
 // }
 
 
+// TEMPLATE LITERALS
+// let name = "Alice";
+// let age = 25;
+// console.log(`My name is ${name} and I am ${age} years old.`);
+
+
 //WRITE A PROMPT THAT TELLS A USER IF THEY ARE ELIGIBLE TO VOTE.
 // const userage = parseInt(prompt("Enter your age:"));
 // if (userage >= 18) {
@@ -101,21 +107,16 @@
 
 
 // WRITE A PROGRAM TO DETERMINE THE GREATER OF THREE NUMBERS.
-const num1 = parseInt(prompt("Enter the first number:"));
-const num2 = parseInt(prompt("Enter the second number:"));
-const num3 = parseInt(prompt("Enter the third number:"));
+// const num1 = parseInt(prompt("Enter the first number:"));
+// const num2 = parseInt(prompt("Enter the second number:"));
+// const num3 = parseInt(prompt("Enter the third number:"));
 
-if (num1 >= num2 && num1 >= num3) {
-    alert(`${num1} is the greatest number.`);
-} else if (num2 >= num1 && num2 >= num3) {
-     alert(`${num2} is the greatest number.`);
-} else {
-     alert(`${num3} is the greatest number.`);
-}
-
-
-
-// TEMPLATE LITERALS
-// let name = "Alice";
-// let age = 25;
-// console.log(`My name is ${name} and I am ${age} years old.`);
+// if (num1 >= num2 && num1 >= num3) {
+//     alert(`${num1} is the greatest number.`);
+// } else if (num2 >= num1 && num2 >= num3) {
+//      alert(`${num2} is the greatest number.`);
+// } else if (num3 >= num1 && num3 >= num2) {
+//      alert(`${num3} is the greatest number.`);
+// } else {
+//      alert("All numbers are equal.");
+// }
