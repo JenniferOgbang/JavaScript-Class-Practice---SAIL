@@ -131,19 +131,19 @@
 //        1. Ticket Price
 //        2. Based on AGE (below 12, below 18, below 60, over 60)
 
-let age = parseInt(prompt("Enter a number:"));
+// let age = parseInt(prompt("Enter a number:"));
 
-if (age <12) {
-    alert (" your ticket price is 5");
-} else if (age <18) {
-    alert (" your ticket price is 10");
-} else if (age <60) {
-    alert (" your ticket price is 20");
-} else if (age > 60) {
-    alert (" your ticket price is 15");
-} else {
-    alert ("ticket is not available for this age")
-}
+// if (age <12) {
+//     alert (" your ticket price is 5");
+// } else if (age <18) {
+//     alert (" your ticket price is 10");
+// } else if (age <60) {
+//     alert (" your ticket price is 20");
+// } else if (age > 60) {
+//     alert (" your ticket price is 15");
+// } else {
+//     alert ("ticket is not available for this age")
+// }
 
 
 // Question 2 - Write a program that calculates a discount based on the purchase amount.Prices equal or over 100 have a discount of 20. Prices equal or over 50 have a discount of 10. Otherwise discount is 0
@@ -172,3 +172,118 @@ if (age <12) {
 // let number1 = parseInt(prompt("Enter the first number:"));
 // let number2 = parseInt(prompt("Enter the second number:"));
 //     alert(`${number1 + number2}`);
+
+
+
+
+
+//LOOPS - For, While, Do While
+//For loop
+// for (let i = 6; i < 15; i++) {
+//     console.log(`The value of i is: ${i}`);
+// }
+// for (let index = 0; index < 5; index++) {
+//     console.log(`The value of index is: ${index}`);
+// }
+
+//While loop
+// let j = 0;
+// while (j <= 5) {
+//     console.log(`The value of j is: ${j}`);
+//     j++;
+// }
+
+// Do While loop
+// let k = 0;
+// do {
+//     console.log(`The value of k is: ${k}`);
+//     k++;
+// } while (k <= 5);
+
+
+// Class Practice
+// create a for loop that prints all even numbers from 0 to 20
+// for (let i = 0; i < 20; i++) {
+//     if(i % 2 === 0) {
+//     console.log(`The value of i is: ${i}`);
+// }
+// }
+
+// create a for loop that prints all odd numbers from 0 to 20
+// for (let i = 0; i < 20; i++) {
+//     if(i % 2 === 1) {
+//     console.log(`The value of i is: ${i}`);
+// }
+// }
+
+// Write a loop that prints out the 2 times table from 2x1 to 2x20
+// for (let i = 1; i <= 20; i++) {
+//     console.log(`2 x ${i} = ${2 * i}`);
+// }
+
+// Write a loop that prints out the 2 times table from 2x1 to 2x20 using nested loops
+// for (let i = 1; i <= 20; i++) {
+//     for(b = 2; b <= 20; b++) {
+//         let c = `${i} x ${b} = ${i * b}`;
+//         console.log(c);
+//     }
+// }
+
+// Write a loop that prints out only the even numbers of the 2 times table from 2x1 to 2x60
+// for (let i = 1; i <= 60; i++) {
+//     if (i % 2 === 0) {
+//         console.log(`2 x ${i} = ${2 * i}`);
+//     }
+// }
+
+
+
+
+
+//FUNCTION - Addnum
+function addnum(a) {
+    console.log(a + 5);
+}
+addnum(10); // Output: 15
+
+function addtwonum(a, b) {
+    console.log(a + b);
+}
+addtwonum(10, 5); // Output: 15
+
+
+//FUNCTION - Subtractnum
+function subtractnum(a, b) {
+    console.log(b - a);
+}
+subtractnum(10, 5); // Output: -5
+
+
+//FUNCTION - Multiplication
+function multiplynum(a, b) {
+    console.log(a * b);
+}
+multiplynum(10, 5); // Output: 50
+
+
+//FUNCTION - Division
+function dividenum(a, b) {
+    console.log(a / b);
+}
+dividenum(10, 5); // Output: 2
+
+
+
+
+
+// FATARROW FUNCTION
+const username = (username) => {
+    console.log(username);
+}
+username("Alice"); // Output: Alice
+username("John"); // Output: John
+
+function username1(username) {
+    console.log(username);
+}
+username1("Bob"); // Output: Bob
